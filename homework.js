@@ -7,7 +7,7 @@
 // If the potential member is in the array, remove all instances of it from the array.
 
 function remove(array, name) {
-    return array.filter(value => !name.includes(value));
+    return array.filter(value => !name.includes(value)); // this is for 1 and 2
 }
 
 
